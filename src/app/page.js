@@ -24,8 +24,8 @@ const defaultBank = {
   }
 }
 
-export default function Home() {
-  const cookieStore = cookies()
+export default async function Home() {
+  const cookieStore = await cookies()
   const colorBanks = cookieStore.has('colorBanks') ? JSON.parse(cookieStore.get('colorBanks').value) : defaultBank
 
   return (
