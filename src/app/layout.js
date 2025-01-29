@@ -12,10 +12,10 @@ export const metadata = {
   openGraph: {
     title: 'sixswatch',
     description: 'Quickly create and store color palettes right in your browser.',
-    url: 'https://sixswatch.sixbeeps.com/',
+    url: 'https://sixswatch.vercel.app/',
     site_name: 'sixswatch',
     images: [{
-      url: 'https://sixswatch.sixbeeps.com/icon.png',
+      url: 'https://sixswatch.vercel.app/icon.png',
       width: 512,
       height: 512,
       alt: 'sixswatch',
@@ -26,7 +26,7 @@ export const metadata = {
     title: 'sixswatch',
     description: 'Quickly create and store color palettes right in your browser.',
     creator: '@sixbeeps',
-    images: ['https://sixswatch.sixbeeps.com/icon.png'],
+    images: ['https://sixswatch.vercel.app/icon.png'],
   }
 }
 
